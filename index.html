@@ -80,7 +80,8 @@ header.nav{position:sticky;top:0;z-index:50;backdrop-filter:blur(14px);
 .eyebrow .dot{width:7px;height:7px;border-radius:50%;background:var(--accent)}
 h1{font-size:clamp(38px,5.4vw,62px);font-weight:700;margin:22px 0 18px}
 h1 .hl{color:var(--primary)}
-.hero p.sub{font-size:clamp(17px,2vw,20px);color:var(--muted);max-width:34ch;margin-bottom:30px}
+.hero p.sub{font-size:clamp(17px,2vw,20px);color:var(--muted);max-width:34ch;margin-bottom:14px}
+.hero .audience{font-size:15px;color:#3c463d;max-width:42ch;margin-bottom:28px}
 .cta-row{display:flex;flex-wrap:wrap;gap:14px;margin-bottom:30px}
 .btn-lg{padding:16px 28px;font-size:16px}
 .hero-meta{display:flex;flex-wrap:wrap;gap:10px 22px;color:var(--muted);font-size:14px}
@@ -246,9 +247,10 @@ footer{background:var(--bg2);border-top:1px solid var(--line);padding:52px 0 40p
 <section class="hero" id="top">
   <div class="wrap hero-grid">
     <div>
-      <span class="eyebrow"><span class="dot"></span>Nutrizione su misura · Bari · Taranto · Online</span>
+      <span class="eyebrow"><span class="dot"></span>Nutrizione sportiva e clinica · Bari · Taranto · Online</span>
       <h1>Il fisico che vuoi, con un piano che <span class="hl">riesci davvero a seguire</span>.</h1>
       <p class="sub">Niente menù da fame copiati da internet. Una strategia personalizzata, pensata per funzionare nel tempo.</p>
+      <p class="audience">Per chi si allena e per chi convive con diabete, glicemia alta o intestino irritabile.</p>
       <div class="cta-row">
         <button class="btn btn-primary btn-lg" data-cta="whatsapp">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.82 11.82 0 018.413 3.488 11.824 11.824 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.51 5.26l-.999 3.648 3.748-.983z"/></svg>
@@ -270,7 +272,7 @@ footer{background:var(--bg2);border-top:1px solid var(--line);padding:52px 0 40p
         <span>Biologo Nutrizionista · Ordine Biologi Puglia e Basilicata</span>
         <div class="badges">
           <span class="chip"><b>Nutrizione</b> sportiva</span>
-          <span class="chip"><b>Ricomposizione</b> corporea</span>
+          <span class="chip"><b>Nutrizione</b> clinica</span>
           <span class="chip"><b>Piani</b> sostenibili</span>
         </div>
       </div>
@@ -293,14 +295,14 @@ footer{background:var(--bg2);border-top:1px solid var(--line);padding:52px 0 40p
   <div class="wrap">
     <div class="s-head">
       <div class="kick">Se ti riconosci qui</div>
-      <h2>Ti alleni con costanza, ma il corpo non risponde.</h2>
-      <p>Il problema raramente è la voglia. Quasi sempre è come (e quando) mangi rispetto a come ti alleni.</p>
+      <h2>Ti impegni, ma il corpo non risponde come vorresti.</h2>
+      <p>Che tu voglia rendere di più o gestire una condizione, il problema raramente è la volontà: è un'alimentazione non costruita su di te.</p>
     </div>
     <div class="pains">
-      <div class="pain"><div class="x">!</div><p><b>Ti alleni duro ma il fisico non cambia.</b> Tanto sudore, pochi risultati visibili.</p></div>
-      <div class="pain"><div class="x">!</div><p><b>Cali di energia a metà allenamento.</b> Finisci scarico e i carichi non salgono.</p></div>
-      <div class="pain"><div class="x">!</div><p><b>Recuperi lentamente.</b> Dolori, stanchezza e prestazioni che non migliorano.</p></div>
-      <div class="pain"><div class="x">!</div><p><b>Provi diete trovate online.</b> Insostenibili, generiche, mai pensate per chi si allena come te.</p></div>
+      <div class="pain"><div class="x">!</div><p><b>Il peso non scende, o torna sempre su.</b> Diete su diete, effetto yo-yo, niente che duri davvero.</p></div>
+      <div class="pain"><div class="x">!</div><p><b>Ti alleni duro ma il fisico non cambia.</b> Tanto impegno, pochi risultati visibili.</p></div>
+      <div class="pain"><div class="x">!</div><p><b>Devi tenere a bada glicemia o valori.</b> E finora ti hanno solo dato una lista di cibi da evitare.</p></div>
+      <div class="pain"><div class="x">!</div><p><b>Gonfiore, intestino irritabile, digestione difficile.</b> Mangi "sano" ma stai comunque male.</p></div>
     </div>
   </div>
 </section>
@@ -314,8 +316,8 @@ footer{background:var(--bg2);border-top:1px solid var(--line);padding:52px 0 40p
       <p>Capire come vivi e ti alleni, costruire un piano cucito su di te, aggiustarlo nel tempo coi risultati reali.</p>
     </div>
     <div class="steps">
-      <div class="step"><div class="num">1</div><h3>Valutazione</h3><p>Analisi di composizione corporea, abitudini, allenamenti e obiettivo. Partiamo dai tuoi dati, non da una tabella standard.</p></div>
-      <div class="step"><div class="num">2</div><h3>Piano su misura</h3><p>Un piano nutrizionale personalizzato e sostenibile, sincronizzato con i tuoi allenamenti. Niente rinunce estreme.</p></div>
+      <div class="step"><div class="num">1</div><h3>Valutazione</h3><p>Analisi di composizione corporea, abitudini, stile di vita e obiettivo. Partiamo dai tuoi dati, non da una tabella standard.</p></div>
+      <div class="step"><div class="num">2</div><h3>Piano su misura</h3><p>Un piano nutrizionale personalizzato e sostenibile, costruito sulla tua vita reale. Niente rinunce estreme.</p></div>
       <div class="step"><div class="num">3</div><h3>Monitoraggio</h3><p>Controlli periodici per aggiustare il tiro in base ai progressi. Il piano evolve con te, in studio o online.</p></div>
     </div>
   </div>
@@ -327,43 +329,43 @@ footer{background:var(--bg2);border-top:1px solid var(--line);padding:52px 0 40p
     <div class="s-head">
       <div class="kick">I percorsi</div>
       <h2>Scegli da dove partire.</h2>
-      <p>Tre percorsi pensati per chi si allena. In tutti, il primo passo è una valutazione iniziale insieme.</p>
+      <p>Tre percorsi per i mondi che seguo di più. Tutti disponibili in studio o online, e tutti partono da una valutazione iniziale insieme.</p>
     </div>
     <!-- DA VALIDARE con Giulio: nomi e contenuti dei percorsi sono una proposta -->
     <div class="cards">
       <div class="card">
-        <span class="tag">Performance</span>
-        <h3>Percorso Performance</h3>
-        <p class="desc">Per chi gareggia o si allena con obiettivi seri e vuole spingere la prestazione.</p>
+        <span class="tag">Sport</span>
+        <h3>Nutrizione sportiva</h3>
+        <p class="desc">Per chi si allena e vuole rendere di più, con più energia e una ricomposizione che si vede.</p>
         <ul>
-          <li>Piano periodizzato sull'allenamento</li>
-          <li>Timing dei nutrienti pre e post workout</li>
-          <li>Strategia per gare e competizioni</li>
-          <li>Eventuale integrazione mirata</li>
+          <li>Piano costruito sull'allenamento</li>
+          <li>Energia, recupero e timing dei pasti</li>
+          <li>Ricomposizione: massa o definizione</li>
+          <li>Strategia per gare, se servono</li>
         </ul>
         <button class="btn btn-ghost" data-cta="whatsapp">Richiedi info</button>
       </div>
       <div class="card feat">
         <span class="tag">Più richiesto</span>
-        <h3>Ricomposizione</h3>
-        <p class="desc">Per chi si allena e vuole perdere grasso o costruire massa, restando in energia.</p>
+        <h3>Dimagrimento e metabolismo</h3>
+        <p class="desc">Per perdere peso davvero e tenere sotto controllo glicemia e valori, senza effetto yo-yo.</p>
         <ul>
-          <li>Obiettivo massa o definizione</li>
-          <li>Piano sostenibile, zero diete da fame</li>
-          <li>Bilanciato sui tuoi allenamenti</li>
-          <li>Controlli e aggiustamenti costanti</li>
+          <li>Dimagrimento sostenibile, senza diete da fame</li>
+          <li>Supporto per glicemia e diabete</li>
+          <li>Educazione alimentare, non liste di divieti</li>
+          <li>Risultati che restano nel tempo</li>
         </ul>
         <button class="btn btn-primary" data-cta="whatsapp">Parla con Giulio</button>
       </div>
       <div class="card">
-        <span class="tag">Online</span>
-        <h3>Consulenza Online</h3>
-        <p class="desc">Lo stesso percorso, ovunque ti alleni. Segui il piano a distanza con follow-up regolari.</p>
+        <span class="tag">Digestione</span>
+        <h3>Benessere digestivo</h3>
+        <p class="desc">Per chi convive con intestino irritabile, gonfiore o intolleranze e vuole tornare a stare bene a tavola.</p>
         <ul>
-          <li>Prima visita in videochiamata</li>
-          <li>Piano digitale sempre con te</li>
-          <li>Follow-up periodici online</li>
-          <li>Supporto tra un controllo e l'altro</li>
+          <li>Gestione dell'intestino irritabile (IBS)</li>
+          <li>Meno gonfiore e fastidi digestivi</li>
+          <li>Approccio graduale e personalizzato</li>
+          <li>Reintroduzione progressiva degli alimenti</li>
         </ul>
         <button class="btn btn-ghost" data-cta="whatsapp">Richiedi info</button>
       </div>
@@ -382,11 +384,11 @@ footer{background:var(--bg2);border-top:1px solid var(--line);padding:52px 0 40p
       <h2>Dott. Giulio Visino</h2>
       <p class="quote">"Fa che il cibo sia la tua medicina e la medicina sia il tuo cibo."</p>
       <p>Sono un Biologo Nutrizionista. Mi sono laureato in Scienze Biologiche all'Università Politecnica delle Marche e in Scienze della Nutrizione per la Salute Umana all'Università di Bari, con 110 e lode. Il mio tirocinio nel reparto di Endocrinologia del Policlinico di Bari mi ha formato su metabolismo, composizione corporea e nutrizione applicata.</p>
-      <p>Il mio obiettivo è costruire con te un rapporto vero e un piano il più personalizzato possibile: corretto, equilibrato e soprattutto sostenibile, vicino alla tua vita e ai tuoi allenamenti.</p>
+      <p>Il mio obiettivo è costruire con te un rapporto vero e un piano il più personalizzato possibile: corretto, equilibrato e soprattutto sostenibile, vicino alla tua vita di tutti i giorni.</p>
       <div class="creds">
         <div class="cred"><span class="ic">◈</span><div><b>110L/110</b><span>Laurea Magistrale, Univ. di Bari</span></div></div>
         <div class="cred"><span class="ic">◈</span><div><b>Policlinico di Bari</b><span>Tirocinio in Endocrinologia</span></div></div>
-        <div class="cred"><span class="ic">◈</span><div><b>Nutrizione sportiva</b><span>Performance e ricomposizione</span></div></div>
+        <div class="cred"><span class="ic">◈</span><div><b>Sportiva e clinica</b><span>Sport, metabolismo, digestione</span></div></div>
         <div class="cred"><span class="ic">◈</span><div><b>Albo dei Biologi</b><span>Puglia e Basilicata</span></div></div>
       </div>
     </div>
@@ -468,7 +470,7 @@ footer{background:var(--bg2);border-top:1px solid var(--line);padding:52px 0 40p
     <div class="final-box">
       <div class="kick">Il primo passo</div>
       <h2>Pronto a mangiare per i tuoi obiettivi?</h2>
-      <p>Scrivimi su WhatsApp e raccontami il tuo sport e cosa vuoi ottenere. Capiamo insieme da dove partire.</p>
+      <p>Scrivimi su WhatsApp e raccontami il tuo obiettivo, sportivo o di salute. Capiamo insieme da dove partire.</p>
       <div class="cta-row">
         <button class="btn btn-primary btn-lg" data-cta="whatsapp">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.82 11.82 0 018.413 3.488 11.824 11.824 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.51 5.26l-.999 3.648 3.748-.983z"/></svg>
@@ -523,7 +525,7 @@ footer{background:var(--bg2);border-top:1px solid var(--line);padding:52px 0 40p
    ============================================================ */
 const CONTATTI = {
   whatsapp: "393936402425",
-  whatsappMsg: "Ciao Giulio! Ho visto il tuo sito e vorrei informazioni sui percorsi di nutrizione sportiva.",
+  whatsappMsg: "Ciao Giulio! Ho visto il tuo sito e vorrei informazioni sui tuoi percorsi.",
   miodottore: "https://www.miodottore.it/giulio-visino/nutrizionista/taranto"
 };
 
